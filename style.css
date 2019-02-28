@@ -97,6 +97,10 @@
     content: ': ';
 }
 
+.container .content .basic div span.value .phone-number:before {
+    content: '-';
+}
+
 .container .content .basic img {
     position: absolute;
     top: -10px;

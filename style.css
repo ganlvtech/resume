@@ -1,0 +1,111 @@
+.container {
+    color: #2b2e3b;
+}
+
+.container a {
+    color: #566d8a;
+    text-decoration: none;
+}
+
+.container p {
+    margin-top: .6em;
+    margin-bottom: .6em;
+}
+
+.container .header {
+    border-bottom: 3px solid #9298b5;
+}
+
+.container .header .header-inner {
+    position: relative;
+    border-bottom: 3px solid #414f95;
+}
+
+.container .header .header-inner h1 {
+    margin-left: 1em;
+    margin-top: .5em;
+    margin-bottom: 0.5em;
+    font-size: 1.5em;
+    letter-spacing: 0.5em;
+    font-weight: normal;
+}
+
+.container .header .header-inner .target {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: .4em .8em .6em;
+    border-left: 3px solid #9298b5;
+}
+
+.container .content {
+    margin-left: 2em;
+    margin-right: 2em;
+    border-left: 2px solid #9298b5;
+    overflow: auto;
+}
+
+.container .content h2 {
+    font-size: 1em;
+}
+
+.container .content h2 span {
+    display: inline-block;
+    padding: 0.2em 1em;
+    line-height: 1;
+    font-size: 1em;
+    color: #ffffff;
+    background-color: #384275;
+    vertical-align: middle;
+}
+
+.container .content h2:after {
+    content: '';
+    display: inline-block;
+    height: 0;
+    border-width: .7em 0 .7em .7em;
+    border-style: solid;
+    vertical-align: middle;
+    border-left-color: #384275;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+}
+
+.container .content > section {
+    margin-left: 1em;
+    font-size: .85em;
+}
+
+.container .content .basic {
+    position: relative;
+}
+
+.container .content .basic div {
+    display: inline-block;
+    width: 40%;
+}
+
+.container .content .basic div span.key {
+    display: inline-block;
+    width: 4em;
+    text-align: justify;
+    text-justify: distribute-all-lines;
+    text-align-last: justify;
+}
+
+.container .content .basic div span.value:before {
+    content: ': ';
+}
+
+.container .content .basic img {
+    position: absolute;
+    top: -10px;
+    right: 0;
+    width: 15%;
+    border: 1px solid;
+}
+
+.container .content section ol,
+.container .content section ul {
+    padding-left: 1.3em;
+}
